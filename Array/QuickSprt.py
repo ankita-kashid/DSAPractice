@@ -1,5 +1,5 @@
 def partition(a,si,ei):
-    pivot=6  
+    pivot=5  
     #find number of elements smaller than pivot
     c=0
     count=0
@@ -21,7 +21,7 @@ def partition(a,si,ei):
             i=i+1
             j=j-1
             count+=1
-    return count
+    return a
 
 def quick_sort(a,si,ei): 
     if si>=ei:

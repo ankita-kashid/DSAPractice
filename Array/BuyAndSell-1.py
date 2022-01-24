@@ -11,6 +11,7 @@ def buySell(nums):
         mini=min(mini,i)
         profit=i-mini
         max_profit=max(profit,max_profit)
+    print(20%15)
     return max_profit
 
 if __name__=='__main__':

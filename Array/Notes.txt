@@ -1,0 +1,11 @@
+RECURSION
+    HCF by recursion
+    return nth Fibanocci number
+    nth magic number  -- 
+    check Fibanocci number
+    LCM by recursion
+    power
+Array
+    Union and intersection in one pass
+    Factorial of large number
+    Rearrange negative positive- with mainting order
