@@ -1,3 +1,4 @@
+
 def pair(nums,t):
     dic={}
     count=0
@@ -8,10 +9,9 @@ def pair(nums,t):
             dic[nums[i]]+=1
         else:
             dic[nums[i]]=1
-
-    return count
+    return count*2
 
 if __name__=='__main__':
-    nums=[1,2,3,2,4,1]
-    target=5
+    nums=[1,5,7,-1]
+    target=6
     print(pair(nums,target))
