@@ -20,4 +20,4 @@ def pair(nums,x):
             l.append([x+nums[i],nums[i]])
     return l
 
-print(pair([5, 20, 3, 2, 5, 80],78))
+print(pair( [1,2,3,4,5],1))

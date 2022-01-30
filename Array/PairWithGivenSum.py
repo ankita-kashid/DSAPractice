@@ -1,14 +1,17 @@
 def pair(nums,t):
     dic={}
     l=[]
+    count=0
     for i in range(len(nums)):
         if t-nums[i] in dic:
+            count+=dic[t-nums[i]]
             l.append([t-nums[i],nums[i]])
         if nums[i] in dic:
             dic[nums[i]]+=1
         else:
             dic[nums[i]]=1
     return l
+
 
 
 if __name__=='__main__':

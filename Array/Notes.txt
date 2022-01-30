@@ -9,3 +9,5 @@ Array
     Union and intersection in one pass
     Factorial of large number
     Rearrange negative positive- with mainting order
+    find missing positive
+    is-subsequence

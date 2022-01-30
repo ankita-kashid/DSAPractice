@@ -15,10 +15,7 @@ def sqr(nums):
         k-=1
     #print(ans)
     return ans
-
-
-
-
+    
 if __name__=='__main__':
     nums=[-4,3,5,6,9]
     print(sqr(nums))
