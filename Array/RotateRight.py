@@ -9,7 +9,7 @@ def rev(nums,i,j):
         i+=1
         j-=1
 
-def leftrotate(nums,k):
+def rightrotate(nums,k):
     if k==0:
         return
     n=len(nums)
@@ -25,8 +25,8 @@ def pri(nums):
 
 
 if __name__=='__main__':
-    nums=[1, 2, 3, 4, 5, 6, 7]
-    k=4
-    leftrotate(nums,k)
-    pri(nums)
+    nums=[99,-1,-100,3]
+    k=2
+    rightrotate(nums,k)
+    print(nums)
  

@@ -11,7 +11,8 @@ def zero(nums):
     while count<len(nums):
         nums[count]=0
         count+=1
-    return nums
+    return nums 
+    
 
 # Method 2:
 def zer02(nums):

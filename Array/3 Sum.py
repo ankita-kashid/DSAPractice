@@ -22,8 +22,8 @@ def sum3(nums):
                 r-=1
     return out if len(out) else []
                 
-            
-
+a=ord('H')-'A'            
+print(a)
 
 
 

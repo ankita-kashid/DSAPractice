@@ -5,9 +5,10 @@ def sqrt(num):
     end=num
     while start<end:
         mid=(start+end)//2
+        root = mid
         if mid*mid==num:
-            root = mid
-            return root
+            
+            return mid 
         elif mid*mid>num:
             end=mid-1
         else:

@@ -1,6 +1,11 @@
-
-#input= [1, 2, 3, 4, 5, 6, 7]
-#output  3 4 5 6 7 1 2 
+"""
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+"""
 def rev(nums,i,j):
     while i<j:
         temp=nums[i]
@@ -12,6 +17,7 @@ def rev(nums,i,j):
 
 
 def leftrotate(nums,k):
+    n=len(nums)
     if k==0:
         return
     k=k%len(nums)
@@ -28,7 +34,7 @@ def pri(nums):
 
 
 if __name__=='__main__':
-    nums=[1, 2, 3, 4, 5, 6, 7]
-    k=2
+    nums=[1, 3,6,11,12,17]
+    k=4
     leftrotate(nums,k)
     pri(nums)
